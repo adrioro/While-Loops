@@ -17,3 +17,33 @@ do {
   z++;
 }
 while (z < 6);
+
+document.write("<br>");
+
+var w = 0
+
+while (w < 6) {
+  y = 3
+  document.write(w * y + "<br>");
+  w++;
+}
+
+document.write("<br>");
+
+var g = 0
+
+while (g < 5) {
+  document.write(g * 100 + "<br>");
+  g++;
+}
+
+//Breaking the Loop//
+
+document.write("<br>");
+
+for (num = 1; num < 9; num++) {
+  document.write("This will print until broken always that the count is <9, but I'll set a break at 4.<br>");
+  if (num == 4) {
+    break;
+  }
+}
