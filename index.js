@@ -47,3 +47,13 @@ for (num = 1; num < 9; num++) {
     break;
   }
 }
+document.write("<br>");
+var myFriends = new Array("Vero", "Rafa", "Peggy", "Frank", "Cecilia");
+
+for (index in myFriends) {
+  document.write(index + myFriends[index] + "<hr/>");
+  if (index == 2) {
+    break;
+  }
+
+}
