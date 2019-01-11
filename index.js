@@ -36,9 +36,9 @@ while (g < 5) {
   document.write(g * 100 + "<br>");
   g++;
 }
-
+document.write("<br>");
 //Breaking the Loop//
-
+document.write("BREAKING THE LOOP<br>");
 document.write("<br>");
 
 for (num = 1; num < 9; num++) {
@@ -47,9 +47,9 @@ for (num = 1; num < 9; num++) {
     break;
   }
 }
-
+document.write("<br>");
 //Looping an Array//
-
+document.write("LOOPING AN ARRAY<br>");
 document.write("<br>");
 var myFriends = new Array("Vero", "Rafa", "Peggy", "Frank", "Cecilia");
 
@@ -60,9 +60,10 @@ for (index in myFriends) {
   }
 }
 document.write("<br>");
+document.write("SKIPPING A LOOP<br>");
 //Skipping a Loop//
 
-document.write("Skipping a Loop<br>");
+
 document.write("<br>");
 
 var myArrayList = ["First", "Second", "Third", "Fourth", "Fifth"];
