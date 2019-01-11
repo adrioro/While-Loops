@@ -47,6 +47,9 @@ for (num = 1; num < 9; num++) {
     break;
   }
 }
+
+//Looping an Array//
+
 document.write("<br>");
 var myFriends = new Array("Vero", "Rafa", "Peggy", "Frank", "Cecilia");
 
@@ -55,5 +58,18 @@ for (index in myFriends) {
   if (index == 2) {
     break;
   }
+}
+document.write("<br>");
+//Skipping a Loop//
 
+document.write("Skipping a Loop<br>");
+document.write("<br>");
+
+var myArrayList = ["First", "Second", "Third", "Fourth", "Fifth"];
+
+for (index = 0; index <= 4; index++) {
+  if (index == 2) {
+    continue;
+  }
+  document.write(myArrayList[index] + "<br>");
 }
